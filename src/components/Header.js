@@ -3,7 +3,7 @@ import React from 'react'
 import './Header.css'
 
 function Header() {
-  return (<div>
+  return (<div className="header">
     <img src="/logo" alt="" />
     <ul>
       <li>Menu profile</li>
