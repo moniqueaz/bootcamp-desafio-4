@@ -1,19 +1,21 @@
-import REact from 'react'
+import React from 'react'
 
+import Comment from './Comment'
 import './Post.css'
 
-function Post({ index }) {
-  return <div key={index}>
-    <div>
-      <img src="/perfil" alt="" />
-      <h2>Nome</h2>
-      <span>data</span>
+function Post({ post, index }) {
+  const { name, date, profile, message, comments } = post
+  return (<div key={index} className="post">
+    <div className="post__initial">
+      <img src={profile} alt="" />
+      <h2>{name}</h2>
+      <span>{date}</span>
+      <p>{message}</p>
     </div>
-    <div>
-      <img src="/perfil-comentario" alt="" />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum cum quibusdam? Inventore corrupti error eveniet ad a sunt molestias ducimus tempora dolorum adipisci! Unde, itaque? Facilis accusantium blanditiis recusandae?Mollitia dolorum officia recusandae aliquam, voluptates culpa cum dignissimos fugit, veniam ipsam excepturi? Voluptate, beatae culpa quod mollitia libero quo nihil officia omnis iusto perspiciatis explicabo vel. Quos, enim aperiam.</p>
+    <div className="post__comment">
+      {comments.map((comment, index) => <Comment comment={comment} key={index} />)}
     </div>
-  </div>
+  </div>)
 }
 
 export default Post

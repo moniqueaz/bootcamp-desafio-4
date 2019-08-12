@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Header from './components/Header'
-import Posts from './components/Posts'
+import PostList from './components/PostList'
 import './App.css'
 
 function App() {
   return <>
     <Header></Header>
-    <Posts></Posts>
+    <PostList></PostList>
   </>
 }
 

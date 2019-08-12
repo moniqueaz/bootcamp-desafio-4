@@ -3,13 +3,13 @@ import React from 'react'
 import './Header.css'
 
 function Header() {
-  return <div>
+  return (<div>
     <img src="/logo" alt="" />
     <ul>
       <li>Menu profile</li>
       <li>Icone</li>
     </ul>
-  </div>
+  </div>)
 }
 
 export default Header
