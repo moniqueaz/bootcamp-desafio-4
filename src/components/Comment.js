@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Comment.css'
+
 function Comment({ comment, index }) {
   const { name, profile, message } = comment
   return (<div className="comment" key={index}>

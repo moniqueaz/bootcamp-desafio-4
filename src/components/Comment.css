@@ -1,0 +1,16 @@
+.comment{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+
+}
+.comment p{
+  border-bottom: 0 !important;
+  background-color: #eee;
+  border-radius: 30px;
+  padding: 20px !important;
+  flex: 1 1 auto !important;
+  margin-left: 10px;
+}

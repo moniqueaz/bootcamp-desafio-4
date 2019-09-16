@@ -8,8 +8,10 @@ function Post({ post, index }) {
   return (<div key={index} className="post">
     <div className="post__initial">
       <img src={profile} alt="" />
-      <h2>{name}</h2>
-      <span>{date}</span>
+      <div className="post__infor">
+        <h2>{name}</h2>
+        <span>{date}</span>
+      </div>
       <p>{message}</p>
     </div>
     <div className="post__comment">

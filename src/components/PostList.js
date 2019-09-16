@@ -17,6 +17,29 @@ class PostList extends Component {
             name: 'Monique',
             profile: '/perfil-comentario',
             message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores.'
+          },
+          {
+            name: 'Monique',
+            profile: '/perfil-comentario',
+            message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores.'
+          }
+        ]
+      },
+      {
+        name: 'Monique',
+        profile: '/profile',
+        date: '01 jun 2019',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores.',
+        comments: [
+          {
+            name: 'Monique',
+            profile: '/perfil-comentario',
+            message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores.'
+          },
+          {
+            name: 'Monique',
+            profile: '/perfil-comentario',
+            message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores.'
           }
         ]
       }

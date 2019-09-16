@@ -4,10 +4,10 @@ import './Header.css'
 
 function Header() {
   return (<div className="header">
-    <img src="/logo" alt="" />
+    <img src="../assets/logo.png" alt="Facebook" title="Facebook" />
     <ul>
       <li>Menu profile</li>
-      <li>Icone</li>
+      <li><i>Icone</i></li>
     </ul>
   </div>)
 }
